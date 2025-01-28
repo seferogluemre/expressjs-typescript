@@ -1,1 +1,1 @@
-const message: string
+const message: string = "Merhaab "
