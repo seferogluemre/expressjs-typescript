@@ -1,11 +1,11 @@
 import express from 'express'
-import { helloWorld } from './controller'
+import { TestController } from './controller'
 
 
 const app = express()
 const port = 3000
 
-app.get('/hello', (req, res) => helloWorld())
+app.get('/hello', (req, res) => TestController.helloWorld)
 
 app.get('/', (req, res) => {
     res.send('Merhaba Emre SEFEROGLU')
