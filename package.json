@@ -2,6 +2,7 @@
   "name": "typescript-express",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "start-js": "node dist/index.js",
@@ -13,6 +14,11 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.6.0",
     "tsx": "^4.19.2"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
   }
 }
